@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Asus\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-8b5c17abcd9e3bfe90728778b936f987aad89864.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\pre-dexed\debug\classes-a4f2c8d42adab631060f89b7c30510c38aef843c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\pre-dexed\debug\classes-e518dd899d847945632f21dfb09e0e08b705de08.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\pre-dexed\debug\classes-a6a53c813a93794d3665d089b762a69acb21fd62.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\pre-dexed\debug\classes-99c27c2a1c627288ceaaaa414fc74e9708369100.jar" />
+    </item>
+    <item
+        jar="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Asus\AndroidStudioProjects\SimpleExpenseManager\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-aa3ef87a96bb80e26ad356c8de1b6d15fd85aa48.jar" />
+    </item>
+
+</items>
