@@ -6,7 +6,7 @@ package lk.ac.mrt.cse.dbs.simpleexpensemanager.database;
 public abstract class Constants {
     public static final String  DATABASE_NAME = "130601X";
     public static final String  TABLE_1 = "Account";
-    public static final String  TABLE_2 = "Transaction";
+    public static final String  TABLE_2 = "Account_Transaction";
     public static final int DATABASE_VERSION = 1;
 
     public static final String ACCOUNT_NO = "accountNo";
