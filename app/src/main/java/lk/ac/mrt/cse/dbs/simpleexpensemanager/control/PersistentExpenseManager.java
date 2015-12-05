@@ -13,19 +13,27 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
  * Created by Asus on 12/4/2015.
  */
 public class PersistentExpenseManager extends ExpenseManager {
+     /*
+      * this class can be used instead of InMemoryDemoExpenseManager
+      */
 
     Context context;
     public PersistentExpenseManager(Context context){
         this.context = context;
         setup();
     }
+
+    /**
+     * setup method will set the PersistentTransactionDAO as TransactionDAO and
+     * the PersistentAccountDAO as AccountDAO
+     */
     @Override
     public void setup(){
-        TransactionDAO inMemoryTransactionDAO = new PersistentTransactionDAO(this.context);
-        setTransactionsDAO(inMemoryTransactionDAO);
+        TransactionDAO persistentTransactionDAO = new PersistentTransactionDAO(this.context);
+        setTransactionsDAO(persistentTransactionDAO);
 
-        AccountDAO inMemoryAccountDAO = new PersistentAccountDAO(this.context);
-        setAccountsDAO(inMemoryAccountDAO);
+        AccountDAO persistentAccountDAO = new PersistentAccountDAO(this.context);
+        setAccountsDAO(persistentAccountDAO);
 
         // dummy data
         Account dummyAcct1 = new Account("12345A", "Yoda Bank", "Anakin Skywalker", 10000.0);

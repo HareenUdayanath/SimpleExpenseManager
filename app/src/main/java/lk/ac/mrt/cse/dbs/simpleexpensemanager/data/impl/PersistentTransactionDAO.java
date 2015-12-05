@@ -15,7 +15,14 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.database.DBHelper;
  */
 public class PersistentTransactionDAO implements TransactionDAO {
     DBHelper db = null;
+     /*
+      * this class can be used instead of InMemoryTransactionDAO
+      */
 
+    /*
+    * instead of a transaction list this class use database to maintain persistent data set
+    *  of transactions
+    * */
     public PersistentTransactionDAO(Context context){
         this.db = DBHelper.getInstance(context);
     }

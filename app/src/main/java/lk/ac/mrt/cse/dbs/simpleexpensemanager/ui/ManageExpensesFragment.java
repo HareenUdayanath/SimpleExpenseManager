@@ -122,4 +122,27 @@ public class ManageExpensesFragment extends Fragment implements View.OnClickList
                 break;
         }
     }
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (isVisibleToUser) {
+            setSpinnerAdapter();
+        } else {
+        }
+    }
+
+    /**
+     * Update account number spinner when fragment is resumed
+     */
+    private void setSpinnerAdapter() {
+        ArrayAdapter<String> adapter =
+                null;
+        if (currentExpenseManager != null) {
+            adapter = new ArrayAdapter<>(this.getActivity(), R.layout.support_simple_spinner_dropdown_item,
+                    currentExpenseManager.getAccountNumbersList());
+        }
+        if (accountSelector != null) {
+            accountSelector.setAdapter(adapter);
+        }
+    }
 }
